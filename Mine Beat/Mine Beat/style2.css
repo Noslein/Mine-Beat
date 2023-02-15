@@ -1,0 +1,93 @@
+body {
+    background-image:url(images/Ocomeco3.png);
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background: #e7e7ed;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(57, 197, 106);
+    border-radius: 30px;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+}
+
+#container figcaption {
+    position: absolute;
+    top: 145px;
+    right: 20px;
+    font-size: 40px;
+    color: black;
+    text-shadow: 0px 0px 5px black;
+}
+
+img .cave{
+    width: 400px;
+}
+
+img .cave{
+    background-color: rgba(0,0,0,.1);
+}
+
+h2 {
+    color: #e7e7ed;
+}
+
+.j3{
+    color: rgba(233, 255, 255, 0.925);
+    background-color: rgba(162, 157, 157, 0.236);
+}
+
+.-item {
+    padding: 10px;
+}
+
+p{
+    display: flex;
+}
+
+.frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.card-body {
+    background-color: rgba(255, 255, 255, 0.112);
+}
+
+.card-mb-3 {
+    background-color: #e7e7ed12;
+}
+
+.custom-card {
+    background-color: black;
+    width: 130px;
+    height: 40px;
+    color: rgb(91, 208, 118);
+    border-radius: 14px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    text-decoration: none
+}

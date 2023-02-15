@@ -1,0 +1,59 @@
+body{
+    background-image:url(images/MinePaisagem.png.jpg);
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.-item {
+    padding: 10px;
+}
+
+.card-body {
+    background-color: rgba(221, 221, 221, 0.359);
+}
+
+.custom-card {
+    background-color: black;
+    width: 130px;
+    height: 40px;
+    color: rgb(14, 131, 41);
+    border-radius: 14px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    text-align: center;
+    text-decoration: none
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(220, 216, 216, 0);
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(57, 197, 106);
+    border-radius: 20px;
+}
+#feed {
+    background-color: rgba(0,0,0,.1);
+}
+.forms-text {
+    color: white;
+}
+.form-label {
+    color: white;
+}
+

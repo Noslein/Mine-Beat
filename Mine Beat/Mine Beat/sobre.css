@@ -1,0 +1,74 @@
+body{
+    background-image:url(images/MinePaisagem.png.jpg);
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+.card-body {
+    background-color: rgba(221, 221, 221, 0.359);
+}
+.card-text {
+    -webkit-box-shadow: 10px 10px 10px 0 #7070701a;
+    box-sizing: content-box;
+    box-shadow: 10px 10px 10px 0 #70707025;
+    border: none;
+    margin: 20px;
+}
+.custom-card {
+    background-color: black;
+    width: 130px;
+    height: 40px;
+    color: rgb(14, 131, 41);
+    border-radius: 14px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    text-decoration: none
+}
+#fot1 {
+    background-color: bg-dark;
+}
+
+#sob1 {
+    background-color: #7070701d;
+}
+
+.-item {
+    padding: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 14px;
+}
+::-webkit-scrollbar-track {
+    background: #e7e7ed;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(57, 197, 106);
+    border-radius: 20px;
+}
+#feed {
+    background-color: rgba(0,0,0,.1);
+}
+.forms-text {
+    color: white;
+}
+.form-label {
+    color: white;
+}

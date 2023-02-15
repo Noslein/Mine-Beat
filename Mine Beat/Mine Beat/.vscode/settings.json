@@ -1,0 +1,25 @@
+{
+    "cSpell.words": [
+        "acha",
+        "Aldenor",
+        "aqui",
+        "Buscar",
+        "Caio",
+        "Diga",
+        "Dillan",
+        "encantamento",
+        "encantamentos",
+        "Endereço",
+        "Enviar",
+        "Escrito",
+        "feito",
+        "Mais",
+        "mineração",
+        "Nielson",
+        "Outros",
+        "Paisagem",
+        "Saiba"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/6edada6b-d03b-4af1-a432-df45e9df1ec6/AppServices/subscriptions/6edada6b-d03b-4af1-a432-df45e9df1ec6/resourceGroups/MineBeat_group/providers/Microsoft.Web/sites/MineBeat",
+    "appService.deploySubpath": "."
+}
